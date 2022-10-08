@@ -16,8 +16,9 @@ function App() {
 
 	return (
 		<div className="App">
-			<p>Work</p>
-			<button onClick={onClose}> Закрыть </button >
+			<p>Артур ти класний, але Маша краща за тебе </p>
+			<h1>Привіт, Маша, ти класно вигляда</h1>
+			<button onClick={onClose}> Тиць сюди </button >
 		</div>
 	);
 }
