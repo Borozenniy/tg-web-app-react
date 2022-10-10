@@ -17,7 +17,6 @@ function App() {
 		<div className="App">
 			<Header />
 			<button onClick={onToggleButton}>Tиць</button>
-			<ProductList />
 			<Routes>
 				<Route index element={<ProductList />} />
 				<Route path={'form'} element={<Form />} />
