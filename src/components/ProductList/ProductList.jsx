@@ -23,7 +23,7 @@ const getTotalPrice = (items) => {
 
 const ProductList = () => {
 
-	сonst[addedItems, setAddedItems] = useState([]);
+	const [addedItems, setAddedItems] = useState([]);
 	const { tg } = useTelegram();
 	const onAdd = (product) => {
 		const alreadyAdded = addedItems.find(item => item.id === product.id);
